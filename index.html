@@ -10,6 +10,14 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
     />
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+    (function(){
+      emailjs.init("fB0bRd0T5NbwXl68e");
+    })();
+    </script>
 
     <!-- Style Switcher -->
     <link rel="stylesheet" href="css/color-1.css"  class="alternate-style" title="color-1"
@@ -339,7 +347,10 @@
                  <div class="portfolio-item padd-15">
                   <div class="portfolio-item-inner shadow-dark">
                     <div class="portfolio-img">
-                      <img src="img/portfolio-4.jpg" alt="">
+                      <a href="https://nike-product-page-paks.netlify.app/">
+                        <img src="img/project-img.png" alt="">
+                      </a>
+                      <p class="portfolio-title">Nike product Page Clone</p>
                     </div>
                   </div>
                 </div>
@@ -395,14 +406,15 @@
                     <p>Abuja-Nigeria</p>
                   </div>
                   <!-- Contact info item End -->
-                    <!-- Contact info item Start -->
+
+
+                    <!--==================== Contact info item Start -->
                 <div class="contact-info-item padd-15">
                   <a href="mailto:promise.chukwudi@rocketmail.com">
                     <div class="icon"><i class="fa fa-envelope"></i></div>
                     <h4>Email</h4>
                     <p>promise.chukwudi@rocketmail.com</p>
                   </a>
-                  
                 </div>
                 <!-- Contact info item End -->
                 
@@ -410,7 +422,7 @@
                   <div class="contact-info-item padd-15">
 
                     <a href="https://github.com/LifeofPaks" target="_black">
-                      <div class="icon"><i class="fa-brands fa-github"></i></i></div>
+                      <div class="icon"><i class="fa-brands fa-github"></i></div>
                       <h4>Website</h4>
                       <p>github.com/LifeofPaks</p>
                     </a>
@@ -423,48 +435,47 @@
               <h4 class="contact-sub-title padd-15">I'M VERY RESPONSIVE TO MESSAGES</h4>
 
               <!-- Contact Form -->
-              <form action="mail.php" method="POST" class="row">
+              <form action="" class="row">
                 <div class="contact-form padd-15">
                   <div class="row">
                     <div class="form-item col-6 padd-15">
                       <div class="form-group">
-                        <input type="text" name="name" class="form-control" placeholder="Name" autocomplete="off">
+                        <input type="text" id="name" class="form-control" placeholder="Name" autocomplete="off">
                       </div>
                     </div>
                     <div class="form-item col-6 padd-15">
                       <div class="form-group">
-                        <input type="email" name="email" class="form-control" placeholder="Email" autocomplete="off">
+                        <input type="email" id="email" class="form-control" placeholder="Email" autocomplete="off">
                       </div>
                     </div>
                   </div>
                   <div class="row">
                     <div class="form-item col-12 padd-15">
                       <div class="form-group">
-                        <input type="text" name="subject" class="form-control" placeholder="Subject" autocomplete="off">
+                        <input type="text" id="subject" class="form-control" placeholder="Subject" autocomplete="off">
                       </div>
                     </div>
                   </div>
                   <div class="row">
                     <div class="form-item col-12 padd-15">
                       <div class="form-group">
-                        <textarea name="message"  class="form-control" placeholder="Message" ></textarea>
+                        <textarea id="message"  class="form-control" placeholder="Message" ></textarea>
                       </div>
                     </div>
                   </div>
                   <div class="row">
                     <div class="form-item col-12 padd-15">
-                     <button type="submit" class="btn">Send Message</button>
+                     <button onclick="sendMail()" id="send" class="btn">Send Message</button>
                     </div>
                   </div>
                 </div>
               </form>
-              </div>
             </div>
           </section>
-          <!-- ======================================Contact section End=================================================-->
       </div>
-      <!-- Main content End -->
+          <!-- ======================================Contact section End=================================================-->
     </div>
+      <!-- Main content End -->
    <!-- Main Container End -->    
 
     <!-- Style Switcher Start -->
