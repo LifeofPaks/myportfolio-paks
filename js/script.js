@@ -97,6 +97,8 @@ function updateNav(element){
 
 
 // ======================================CONTACT FORM============================
+const sendBtn = document.getElementById('send')
+const mailSent = document.querySelector('.mail-sent')
 
 function sendMail(){
     var params = {
@@ -115,8 +117,15 @@ function sendMail(){
             document.getElementById('email').value = ''
             document.getElementById('message').value = ''
             console.log(res)
-            alert('Message Sent Successfully')
+
+            mailSent.classList.add('active')
+
+            setInterval(()=>{
+                mailSent.classList.remove('active')
+            }, 3000)
         }
     )
 }
+
+sendBtn.addEventListener('click', sendMail)
 

@@ -674,6 +674,19 @@ h3.my-profession{
   padding: 0 50px;
 }
 
+.mail-sent{
+  font-size: 12px;
+  margin-left: 20px;
+  color: var(--text-black-700);
+  margin-bottom: 10px;
+  opacity: 0;
+  transition: .3s;
+}
+
+.mail-sent.active{
+  opacity: 1;
+}
+
 
 /* Make it Responsive */
 
