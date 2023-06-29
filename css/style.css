@@ -515,6 +515,7 @@ h3.my-profession{
   cursor: pointer;
   padding: 30px 15px;
   text-align: center;
+  height: 350px;
   transition: all 0.3s ease;
 }
 .service .service-item .service-item-inner:hover{
