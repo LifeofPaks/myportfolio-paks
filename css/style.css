@@ -91,6 +91,7 @@ ul {
   color: var(--text-black-900);
   font-weight: 700;
   position: relative;
+  transition: all 0.3s ease;
 }
 .section-title h2::before{
   content: '';
@@ -100,6 +101,7 @@ ul {
   position: absolute;
   left: 0;
   top: 100%;
+  transition: all 0.3s ease;
 }
 .section-title h2::after{
   content: '';
@@ -110,6 +112,7 @@ ul {
   left: 0;
   top: 100%;
   margin-top: 8px;
+  transition: all 0.3s ease;
 }
 .row{
   display: flex;
@@ -184,6 +187,7 @@ ul {
   left: 0;
   border-bottom: 5px solid var(--skin-color);
   border-left: 5px solid var(--skin-color);
+  transition: all 0.3s ease;
 }
 .aside .logo a::after{
   content: '';
@@ -194,6 +198,7 @@ ul {
   right: 0;
   border-top: 5px solid var(--skin-color);
   border-right: 5px solid var(--skin-color);
+  transition: all 0.3s ease;
 }
 .aside .nav-toggler{
   width: 45px;
@@ -260,6 +265,7 @@ ul {
   border-bottom: 1px solid var(--bg-black-50);
   color: var(--text-black-900);
   padding: 5px 15px;
+  transition: all 0.3s ease;
 }
 .aside .nav li a.active{
   color: var(--skin-color);
@@ -273,6 +279,7 @@ ul {
   min-height: 100vh;
   display: flex;
   color: var(--text-black-900);
+  transition: all 0.3s ease;
 }
 .home .home-info{
   flex: 0 0 60%;
@@ -289,19 +296,21 @@ h3.hello span{
   font-size: 30px;
   font-weight: 700;
   color: var(--skin-color);
+  transition: all 0.3s ease;
 }
 h3.my-profession{
   font-size: 30px;
   margin: 15px 0;
-  transition: all 0.3s ease;
 }
 .typing{
   color: var(--skin-color);
 }
+
 .home-info p{
   margin-bottom: 70px;
   font-size: 20px;
   color: var(--text-black-700);
+  transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 .home .home-img{
@@ -350,6 +359,7 @@ h3.my-profession{
   margin-bottom: 15px;
   font-weight: 700;
   color: var(--text-black-900);
+  transition: all 0.3s ease;
 }
 .about .about-content .about-text h3 span{
   color: var(--skin-color);
@@ -358,6 +368,7 @@ h3.my-profession{
   font-size: 16px;
   line-height: 25px;
   color: var(--text-black-700);
+  transition: all 0.3s ease;
 }
 .about .about-content .personal-info{
   flex: 0 0 60%;
@@ -374,12 +385,14 @@ h3.my-profession{
   padding: 10px 0;
   color: var(--text-black-900);
   border-bottom: 1px solid var(--bg-black-50);
+  transition: all 0.3s ease;
 }
 .about .about-content .personal-info .info-item p span{
   font-weight: 400;
   color: var(--text-black-700);
   margin-left: 4px;
   display: inline-block;
+  transition: all 0.3s ease;
 }
 .about .about-content .personal-info .buttons{
   margin-top: 30px;
@@ -402,6 +415,7 @@ h3.my-profession{
   font-weight: 600;
   font-size: 16px;
   color: var(--text-black-900);
+  transition: all 0.3s ease;
 }
 .about .about-content .skills .skill-item .progress{
   background: var(--bg-black-50);
@@ -409,6 +423,7 @@ h3.my-profession{
   border-radius: 4px;
   width: 100%;
   position: relative;
+  transition: all 0.3s ease;
 }
 .about .about-content .skills .skill-item .progress .progress-in{
   position: absolute;
@@ -425,6 +440,7 @@ h3.my-profession{
   top: -40px;
   font-weight: 400;
   line-height: 40px;
+  transition: all 0.3s ease;
 }
 .about .about-content .education,
 .about .about-content .experience{
@@ -437,6 +453,7 @@ h3.my-profession{
   margin-bottom: 30px;
   font-weight: 700;
   color: var(--text-black-900);
+  transition: all 0.3s ease;
 }
 .about .about-content .timeline-box{
   flex: 0 0 100%;
@@ -449,6 +466,7 @@ h3.my-profession{
   border-radius: 10px;
   width: 100%;
   position: relative;
+  transition: all 0.3s ease;
 }
 .about .about-content .timeline-item{
   position: relative;
@@ -481,6 +499,7 @@ h3.my-profession{
   font-size: 14px;
   margin-bottom: 12px;
   color: var(--text-black-700);
+  transition: all 0.3s ease;
 }
 .about .about-content .timeline .timeline-date .fa{
   margin-right: 5px;
@@ -491,12 +510,14 @@ h3.my-profession{
   margin-bottom: 15px;
   text-transform: capitalize;
   color: var(--text-black-900);
+  transition: all 0.3s ease;
 }
 .about .about-content .timeline .timeline-text{
   line-height: 25px;
   font-size: 16px;
   text-align: left;
   color: var(--text-black-700);
+  transition: all 0.3s ease;
 }
 
 /* Services */
@@ -549,11 +570,13 @@ h3.my-profession{
   color: var(--text-black-900);
   font-weight: 700;
   text-transform: capitalize;
+  transition: all 0.3s ease;
 }
 .service .service-item .service-item-inner p{
   font-size: 16px;
   color: var(--text-black-700);
   line-height: 25px;
+  transition: all 0.3s ease;
 }
 
 /* Portfolio */
@@ -568,6 +591,7 @@ h3.my-profession{
 .portfolio .portfolio-heading h2{
   font-weight: 500;
   color: var(--text-black-900);
+  transition: all 0.3s ease;
  
 }
 .portfolio .portfolio-item{
@@ -580,6 +604,7 @@ h3.my-profession{
   border: 6px solid var(--bg-black-100);
   overflow: hidden;
   cursor: pointer;
+  transition: all 0.3s ease;
 }
 .portfolio .portfolio-item-inner .portfolio-img img{
   width: 100%;
@@ -595,6 +620,7 @@ h3.my-profession{
   color: var(--text-black-900);
   text-align: center;
   padding: .5rem;
+  transition: all 0.3s ease;
 }
 
 /* Contact */
@@ -609,7 +635,9 @@ h3.my-profession{
   text-align: center;
   font-size: 15px;
   margin-bottom: 60px;
+  transition: all 0.3s ease;
 }
+
 .contact .contact-info-item{
   flex: 0 0 25%;
   max-width: 25%;
@@ -629,12 +657,14 @@ h3.my-profession{
   color: var(--text-black-900);
   text-transform: capitalize;
   margin: 15px 0 5px;
+  transition: all 0.3s ease;
 }
 .contact .contact-info-item p{
   font-size: 16px;
   font-weight: 400;
   line-height: 25px;
   color: var(--text-black-700);
+  transition: all 0.3s ease;
 }
 .contact .contact-form{
   flex: 0 0 100%;
