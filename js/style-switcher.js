@@ -58,14 +58,6 @@ const hour = date.getHours()
 
 console.log(hour)
 
-// if(hour > 6){
-//     document.body.classList.remove('dark')
-// }
-//  else if(hour >= 18){
-//     document.body.classList.add('dark')
-// }
-
-
 if(hour >= 1){
     document.body.classList.add('dark')
 }
